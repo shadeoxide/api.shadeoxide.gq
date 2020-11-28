@@ -1,0 +1,22 @@
+{
+  "name": "shadeoxide-api",
+  "version": "1.0.0",
+  "description": "A Simple API",
+  "main": "api/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node api/server.js"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Shade",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "express": "^4.16.2",
+    "node-fetch": "^2.6.1"
+  }
+}
